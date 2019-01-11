@@ -47,6 +47,3 @@ class handler(BaseHTTPRequestHandler):
         
         self.wfile.write(message.encode())
 
-s = HTTPServer(('127.0.0.1', 5002), handler)
-s.serve_forever()
-
