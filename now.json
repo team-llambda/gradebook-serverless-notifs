@@ -1,0 +1,4 @@
+{
+    "version": 2,
+    "builds": [{ "src": "query_grades.py", "use": "@now/python" }]
+}
