@@ -1,4 +1,8 @@
 {
     "version": 2,
-    "builds": [{ "src": "query_grades.py", "use": "@now/python" }]
+    "builds": [{ "src": "query_grades.py", "use": "@now/python" }],
+    "routes": [
+        { "src": "/query_grades", "dest": "/query_grades.py" }
+       
+      ]
 }
